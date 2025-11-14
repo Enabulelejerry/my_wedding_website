@@ -83,8 +83,8 @@ export default function HeroSection() {
           {[
             { label: "Days", value: countdown.days },
             { label: "Hours", value: countdown.hours },
-            { label: "Minutes", value: countdown.minutes },
-            { label: "Seconds", value: countdown.seconds },
+            { label: "Mins", value: countdown.minutes },
+            { label: "Sec", value: countdown.seconds },
           ].map((item, index) => (
             <div
               key={index}

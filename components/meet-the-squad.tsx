@@ -7,7 +7,7 @@ export default function MeetTheSquadSection() {
     },
     {
       name: "Best Lady",
-      role: "Sister of the Bride",
+      role: "Friend of the Bride",
       image: "/images/best_lady.jpg",
     },
   ];
