@@ -35,7 +35,7 @@ export default function Home() {
       <WeddingDetailsSection />
       <GiftsSection />
       {/* <RSVPSection /> */}
-      <FooterSection />
+      {/* <FooterSection /> */}
     </div>
   );
 }
