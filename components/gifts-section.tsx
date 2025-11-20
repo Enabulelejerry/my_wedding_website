@@ -76,7 +76,7 @@ export default function GiftsSection() {
                   </p>
                 </div>
                 <div>
-                  <p className="text-sm text-soft-text mb-1">ESther Samson</p>
+                  <p className="text-sm text-soft-text mb-1">UBA</p>
                   <p className="text-lg font-bold text-peach">2209156591</p>
                 </div>
               </div>

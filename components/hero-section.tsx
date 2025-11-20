@@ -113,11 +113,11 @@ export default function HeroSection() {
           <Button
             variant="outline"
             className="border-white text-white hover:bg-white/20 px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 bg-transparent"
-            onClick={() =>
-              document
-                .getElementById("details")
-                ?.scrollIntoView({ behavior: "smooth" })
-            }
+            // onClick={() =>
+            //   document
+            //     .getElementById("details")
+            //     ?.scrollIntoView({ behavior: "smooth" })
+            // }
           >
             View Details
           </Button>
