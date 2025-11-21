@@ -98,31 +98,31 @@ export default function HeroSection() {
           ))}
         </div>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button
-            className="bg-white hover:bg-white/90 text-deep-blue px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 hover:shadow-lg"
+        {/* CTA Arrow */}
+        <div className="flex justify-center items-center">
+          <button
+            className="text-white hover:text-white/80 transition-all duration-300 animate-bounce"
             onClick={() =>
               document
                 .getElementById("rsvp")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
           >
-            ✨ Save the Date
-          </Button>
-          <Button
-            variant="outline"
-            className="border-white text-white hover:bg-white/20 px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 bg-transparent"
-            // onClick={() =>
-            //   document
-            //     .getElementById("details")
-            //     ?.scrollIntoView({ behavior: "smooth" })
-            // }
-          >
-            View Details
-          </Button>
+            {/* Downward Arrow */}
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M12 5v14M19 12l-7 7-7-7" />
+            </svg>
+          </button>
         </div>
-
         {/* Decorative divider */}
         <div className="mt-16 flex items-center justify-center gap-4">
           <div className="h-px w-12 bg-gradient-to-r from-transparent to-white" />
